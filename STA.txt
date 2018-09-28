@@ -1,0 +1,31 @@
+Pre-Placement Optimization 
+Improve the logic structure 
+Reduce congestion
+Reduce area
+Improve timing 
+
+Floorplanning and Initial Placement 
+The goals of floorplanning and initial placement include the following:
+
+Creating prototypes using multiple iterations with a focus on routability
+Moving toward timing-driven placement as routability stabilizes
+Adding power routing once timing and congestion converge 
+
+GigaPlace 
+As the routability of the floorplan stabilizes, you should shift your focus to placement and preCTS
+timing closure based on ideal clocks including:
+Setup slack (WNS - Worst Negative Slack)
+Design rule violations (DRVs)
+Setup times (TNS - Total Negative Slack 
+
+PreCTS optimization is also called by GigaPlace to do more interleaving between placement and
+congestion. It leads to better timing and congestion QOR because placement is more aware of
+timing and congestion critical areas. 
+
+Clock Tree Synthesis [page 83]
+
+
+The PrimeTime Static Timing Analysis Flow 
+Table 2-1 Typical PrimeTime static timing analysis flow 
+
+
